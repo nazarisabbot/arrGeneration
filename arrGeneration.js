@@ -7,7 +7,7 @@ const generationArr = (arr) => {
   }, 0);
 
   if (checkSum < 50) {
-    generationArr(arr);
+    return generationArr(arr);
   }
 
   return arr;

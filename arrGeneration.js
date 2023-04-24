@@ -10,10 +10,6 @@ const generationArr = (arr) => {
     generationArr(arr);
   }
 
-  if (checkSum >= 50) {
-    return arr;
-  }
-
   return arr;
 };
 
